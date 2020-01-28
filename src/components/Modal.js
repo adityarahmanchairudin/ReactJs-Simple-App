@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
+import styled from  'styled-components';
 import {ProductConsumer} from '../Context';
 import {ButtonContainer} from './button';
 import {Link} from 'react-router-dom';
@@ -15,7 +15,7 @@ class Modal extends Component {
                     if(!modalOpen){
                         return null;
                     }else{
-                        return(
+                        return (
                         <ModelContainer>
                             <div className="container">
                                 <div className="row">
@@ -48,8 +48,7 @@ class Modal extends Component {
 export default Modal;
 
 const ModelContainer = styled.div
-`
-    position : fixed;
+`   position : fixed;
     top : 0;
     left : 0;
     right : 0;
